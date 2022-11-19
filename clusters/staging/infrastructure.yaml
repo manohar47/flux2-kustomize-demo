@@ -4,9 +4,9 @@ metadata:
   name: infrastructure
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 10m0s
   sourceRef:
     kind: GitRepository
-    name: test-source
+    name: flux-system
   path: ./infrastructure
   prune: true
