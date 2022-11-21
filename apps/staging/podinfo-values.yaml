@@ -5,4 +5,4 @@ metadata:
   namespace: test
 spec:
   values:
-    replicaCount: 3
+    replicaCount: 2
